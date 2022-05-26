@@ -19,27 +19,30 @@ header img {
   text-align: center;
   height: 18rem;
   border-radius: 0.5rem;
-
 }
 
-main{
+main {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
 }
 #block1 {
-    background: linear-gradient(rgba(229, 97, 97, 0.6), rgba(240, 187, 187, 0.6) ), url("forest.jpeg");
-    background-size: cover;
+  background: linear-gradient(rgba(229, 97, 97, 0.6), rgba(240, 187, 187, 0.6)),
+    url("./img/forest.jpeg");
+  background-size: cover;
 }
 #block2 {
-    background: linear-gradient(rgba(96, 222, 54, 0.6), rgba(159, 184, 164, 0.6) ), url("road.jpeg");
-    background-size: cover;
+  background: linear-gradient(rgba(96, 222, 54, 0.6), rgba(159, 184, 164, 0.6)),
+    url("./img/road.jpeg");
+  background-size: cover;
 }
 #block3 {
-    background: linear-gradient(rgba(96, 79, 226, 0.6), rgba(200, 206, 227, 0.6) ), url("sky.jpeg");
-    background-size: cover;
+  background: linear-gradient(rgba(96, 79, 226, 0.6), rgba(200, 206, 227, 0.6)),
+    url("./img/sky.jpeg");
+  background-size: cover;
 }
 #block4 {
-    background: linear-gradient(rgba(209, 225, 32, 0.6), rgba(213, 233, 181, 0.6) ), url("train\ station.jpeg");
-    background-size: cover;
+  background: linear-gradient(rgba(209, 225, 32, 0.6), rgba(213, 233, 181, 0.6)),
+    url("./img/ station.jpeg");
+  background-size: cover;
 }
