@@ -10,7 +10,6 @@ body {
 header img {
   width: 50%;
 }
-
 .block {
   display: flex;
   align-items: center;
@@ -20,6 +19,7 @@ header img {
   text-align: center;
   height: 18rem;
   border-radius: 0.5rem;
+
 }
 
 main{
