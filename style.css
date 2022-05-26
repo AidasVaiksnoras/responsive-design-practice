@@ -43,6 +43,6 @@ main {
 }
 #block4 {
   background: linear-gradient(rgba(209, 225, 32, 0.6), rgba(213, 233, 181, 0.6)),
-    url("./img/ station.jpeg");
+    url("./img/train\ station.jpeg");
   background-size: cover;
 }
