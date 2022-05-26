@@ -10,3 +10,10 @@ body {
 header img {
   width: 50%;
 }
+.block{
+  background: grey;
+  color: white;
+  text-align: center;
+  height: 18rem;
+  border-radius: 0.5rem;
+}
