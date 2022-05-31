@@ -17,8 +17,8 @@ header img {
   background-color: grey;
   color: white;
   text-align: center;
-  height: 18rem;
   border-radius: 0.5rem;
+  aspect-ratio: 1/1;
 }
 
 main {
@@ -88,6 +88,12 @@ button {
   font-weight: bold;
   border: none;
 }
+
+footer {
+  display: flex;
+  flex-direction: column;
+}
+
 button:hover {
   background-color: palevioletred;
 }
@@ -99,5 +105,14 @@ button:hover {
   .block {
     width: 18rem;
     flex-grow: 1;
+  }
+  footer {
+    flex-direction: row-reverse;
+  }
+  form {
+    flex: 2;
+  }
+  .icons {
+    flex: 1;
   }
 }
