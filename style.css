@@ -116,3 +116,22 @@ button:hover {
     flex: 1;
   }
 }
+@media screen and (min-width: 700px) {
+  main {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .block {
+    width: 18rem;
+    flex-grow: 1;
+  }
+  footer {
+    flex-direction: row-reverse;
+  }
+  form {
+    flex: 2;
+  }
+  .icons {
+    flex: 1;
+  }
+}
